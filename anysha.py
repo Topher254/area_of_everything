@@ -39,5 +39,16 @@ class Shapes:
         height = input("Enter your height value : ")
         area = base*height
 
-
+print("LET'S CALCULATE YOUR AREA")
+print("which shape area do you want to calulate? ")
+print("1.triangle")
+print("2. rectangle")
+print("3. square")
+print("4. circle")
+print("5. trapezium")
+print("6. rhombus")
+print("7. parallelogram ")
+answer = input("Enter 1 for triangle, 2 for rectangle e.t.c ... : ")
+if answer ==1:
+    Triangle()
 
